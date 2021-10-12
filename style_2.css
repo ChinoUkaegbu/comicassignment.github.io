@@ -1,0 +1,242 @@
+@font-face {
+  font-family: Meow;
+  src:url(Meows-VGWjy.ttf);
+}
+
+* {
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+ text-decoration: none;
+ color: white;
+ background-color: #eed2cc;
+}
+
+body {
+  margin-left: 160px;
+  margin-right:160px;
+}
+
+
+.title_container{
+ margin: 0 auto;
+ display: flex;
+ font-family: Meow;
+}
+
+.title_container p{
+   background-image: url('cat_background.jpg');
+}
+
+.title_container a{
+ background-color: black;
+}
+
+.first{
+ background-color: black;
+ font-size:30px;
+ padding:20px;
+ flex:3;
+ justify-content: center;
+}
+
+.second{
+ background-color: black;
+ font-size: 20px;
+ padding: 20px;
+ flex:1;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: right;
+}
+
+.row{
+ margin-top: 35px;
+ border:0.7vw solid black;
+ margin-bottom:30px;
+}
+
+.pannels p {
+ display: inline-block;
+}
+
+.previous{
+ grid-area: lefter;
+}
+
+.next{
+ grid-area: righter;
+}
+
+.button_container{
+ display:grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: auto;
+ grid-template-areas:
+   "previous next";
+}
+
+.title {
+ color: grey;
+}
+
+.cell-1{
+  grid-area: first;
+  border-top: 0;
+  border-right: 0.7vw solid black;
+  border-bottom: 0.7vw solid black;
+  border-left: 0;
+}
+
+.cell-2{
+  grid-area: second;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0.7vw solid black;
+  border-left: 0;
+}
+
+.cell-3{
+  grid-area: third;
+  border-top: 0;
+  border-right: 0.7vw solid black;
+  border-bottom: 0.7vw solid black;
+  border-left: 0;
+}
+
+.cell-4{
+  grid-area: fourth;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0.7vw solid black;
+  border-left: 0;
+}
+
+.cell-5{
+  grid-area: fifth;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.cell_container{
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 30vw 30vw 27.5vw;
+  grid-template-areas:
+    "first first first second second"
+    "third third fourth fourth fourth"
+    "fifth fifth fifth fifth fifth";
+}
+
+.cat_pics{
+
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: fill;
+}
+
+#bubble_1{
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  bottom: 70%;
+  left:30%;
+  right: 0;
+  background-color: transparent;
+  opacity:0;
+}
+
+#bubble_2{
+  width: 35vw;
+  height: auto;
+  position: absolute;
+  bottom: 70%;
+  left: 60%;
+  right: 0;
+  background-color: transparent;
+  opacity:0;
+}
+
+#bubble_3{
+  width: 30vw;
+  height: auto;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  right: 0;
+  background-color: transparent;
+  opacity: 0;
+}
+
+#bubble_4{
+  width: 30vw;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  right: 0;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.cell-1:hover{
+  cursor: pointer;
+}
+
+.cell-1:hover #image-1{
+  opacity:0.8;
+  transition: 0.3s;
+}
+
+.cell-1:hover #bubble_1{
+  opacity:1;
+  transition: 0.3s;
+}
+
+.cell-2:hover{
+  cursor: pointer;
+}
+
+.cell-2:hover #image-2{
+  opacity:0.8;
+  transition: 0.3s;
+}
+
+.cell-2:hover #bubble_2{
+  opacity:1;
+  transition: 0.3s;
+}
+
+.cell-3:hover{
+  cursor: pointer;
+}
+
+.cell-3:hover #image-3{
+  opacity:0.8;
+  transition: 0.3s;
+}
+
+.cell-3:hover #bubble_3{
+  opacity:1;
+  transition: 0.3s;
+}
+
+.cell-4:hover{
+  cursor: pointer;
+}
+
+.cell-4:hover #image-4{
+  opacity:0.8;
+  transition: 0.3s;
+}
+
+.cell-4:hover #bubble_4{
+  opacity:1;
+  transition: 0.3s;
+}

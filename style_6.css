@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  background-color: #eed2cc;
+}
+
+body {
+  margin-left: 160px;
+  margin-right:160px;
+}
+
+.title_container {
+  margin: 0 auto;
+  display: flex;
+}
+
+.title_container p{
+  background-color:black;
+}
+
+.title_container a{
+  background-color: black;
+}
+
+.first{
+  background-color: black;
+  font-size:30px;
+  padding:20px;
+  flex:3;
+  justify-content: center;
+}
+
+.second{
+  background-color: black;
+  font-size: 20px;
+  padding: 20px;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+}
+
+.row{
+  margin-top: 35px;
+  border:2px solid black;
+  margin-bottom:30px;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.row h3{
+  background-color: inherit;
+  padding-top:50px;
+  font-size: 20px
+}
+
+.row h1{
+  background-color: inherit;
+  padding-top:20px;
+  padding-bottom: 70px;
+  font-size: 40px;
+}
+
+.row img:not(.congrats){
+  max-width: 550px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#load img:not(.congrats) {
+  max-width:550px;
+  height:auto;
+  display: flex;
+  justify-content: center;
+
+  padding-top: 50px;
+  padding-bottom: 15px;
+  margin: auto;
+}
+
+#load h1 {
+  font: bold 50px 'helvetica';
+  letter-spacing: 2px;
+  margin-top: -1px;
+}
+
+#pannelSix{
+  background-color: none;
+  height:700px;
+  font-size: 10px;
+}
+
+#pannelSix img {
+  height:100%;
+}
+
+#speech {
+  color:green;
+}
+
+.speechBalloon {
+    background: #546e7a;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 23px;
+    line-height: 120px;
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.speechBalloon:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 14px 42px 0;
+    border-color: transparent #546e7a transparent transparent;
+    bottom: -42px;
+    left: 78%;
+    margin-left: -7px;
+}
+
+#speechOne {
+  position: absolute;
+  transform: rotate(347deg);
+  top:20%;
+  right:17%;
+}
+
+#speechTwo {
+  position: absolute;
+  transform: rotate(20deg);
+  top:60%;
+  right:68%;
+}
+
+@media screen and (max-width: 890px){
+  .row img {
+    width:100%;
+    height:auto;
+  }
+
+  #load img {
+    width:100%;
+    height: auto;
+  }
+
+}
+
+.pannels p {
+  display: inline-block;
+}
+
+.previous{
+  grid-area: lefter;
+}
+
+.next{
+  grid-area: righter;
+}
+
+.button_container{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "previous next";
+}
+
+.title {
+  color: grey;
+}
+
+.congrats{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: fill;
+}

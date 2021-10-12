@@ -1,0 +1,164 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+ text-decoration: none;
+ color: white;
+ background-color: #eed2cc;
+}
+
+body {
+ margin-left: 160px;
+ margin-right:160px;
+}
+
+
+.title_container {
+ margin: 0 auto;
+ display: flex;
+}
+
+.title_container p{
+   background-image: url('cat_background.jpg');
+}
+
+.title_container a{
+ background-color: black;
+}
+
+.first{
+ background-color: black;
+ font-size:30px;
+ padding:20px;
+ flex:3;
+ justify-content: center;
+}
+
+.second{
+ background-color: black;
+ font-size: 20px;
+ padding: 20px;
+ flex:1;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: right;
+}
+
+.row{
+ margin-top: 35px;
+ border:2px solid black;
+ padding-bottom:20px;
+ margin-bottom:30px;
+
+ text-align: center;
+ justify-content: center;
+}
+
+.row h3{
+ background-color: inherit;
+ padding-top:50px;
+ font-size: 20px;
+}
+
+.row h1{
+ background-color: inherit;
+ padding-top:20px;
+ padding-bottom: 70px;
+ font-size: 40px;
+}
+
+.row img{
+ max-width: 550px;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+}
+
+#load img {
+ max-width:550px;
+ height:auto;
+ display: flex;
+ justify-content: center;
+
+ padding-top: 50px;
+ padding-bottom: 15px;
+ margin: auto;
+}
+
+#load h1 {
+ font: bold 50px 'helvetica';
+ letter-spacing: 2px;
+ margin-top: -1px;
+ color:#1F1C1B;
+}
+
+#pannelOne{
+ background-color: black;
+}
+
+#pannelOne img{
+ max-width: 450px;
+ -webkit-filter: grayscale(100%);
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+
+#pannelOne h3 {
+ font-size: 30px;
+}
+
+#pannelOne h1{
+ font-size: 45px;
+ padding-bottom: 0px;
+}
+
+@media screen and (max-width: 890px){
+ .pannelOne img {
+   width:100%;
+   height:auto;
+ }
+
+ #load img {
+   width:100%;
+   height: auto;
+ }
+
+}
+
+
+.pannels p {
+ display: inline-block;
+}
+
+.previous{
+ grid-area: lefter;
+}
+
+.next{
+ grid-area: righter;
+}
+
+.button_container{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ grid-template-rows: auto;
+ grid-template-areas:
+   "previous next";
+}
+
+/* Some left and right padding inside the container */
+.container {
+ padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+.title {
+ color: grey;
+}

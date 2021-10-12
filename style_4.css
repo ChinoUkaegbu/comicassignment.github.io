@@ -1,0 +1,99 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  background-color: #eed2cc
+}
+
+body {
+  margin-left: 160px;
+  margin-right:160px;
+}
+
+
+/* Accept decline button styling */
+.cls-2{fill:rgba(0,0,0,0);
+}
+.cls-1{fill:rgba(0,0,0,0);
+}
+
+.cls-1:hover{
+  cursor: pointer;
+  fill: rgba(0,0,0,0.5);
+}
+
+.title_container {
+  margin: 0 auto;
+  display: flex;
+}
+
+.title_container p{
+  background-color:black;
+}
+
+.title_container a{
+  background-color: black;
+}
+
+.first{
+  background-color: black;
+  font-size:30px;
+  padding:20px;
+  flex:3;
+  justify-content: center;
+}
+
+.second{
+  background-color: black;
+  font-size: 20px;
+  padding: 20px;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+}
+
+.row{
+  margin-top: 35px;
+  border:2px solid black;
+  padding-bottom:20px;
+  margin-bottom:30px;
+}
+
+.row h1{
+  color:black;
+}
+
+.pannels p {
+  display: inline-block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.previous{
+ grid-area: lefter;
+}
+
+.next{
+ grid-area: righter;
+}
+
+.button_container{
+ display:grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: auto;
+ grid-template-areas:
+   "previous next";
+}
+
+.title {
+ color: grey;
+}
