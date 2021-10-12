@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Meow;
+  src:url(Arvo-Bold.ttf);
+}
 
 * {
   margin: 0px;
@@ -28,6 +32,7 @@ body {
 .title_container {
   margin: 0 auto;
   display: flex;
+  font-family: Meow;
 }
 
 .title_container p{

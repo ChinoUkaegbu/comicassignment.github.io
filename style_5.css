@@ -1,4 +1,7 @@
- /* {box-sizing: border-box} */
+@font-face {
+  font-family: Meow;
+  src:url(Arvo-Bold.ttf);
+}
 
 * {
   margin: 0px;
@@ -6,7 +9,6 @@
   list-style: none;
   text-decoration: none;
   color: white;
-  /* background-color: #eed2cc; */
   background-color: #8eacbb;
 }
 
@@ -15,18 +17,14 @@ body {
   margin-right:160px;
 }
 
-
 .title_container {
-  /* max-width:900; */
-  /* height:150px; */
   margin: 0 auto;
   display: flex;
+  font-family: Meow;
 }
 
 .title_container p{
   background-color:black;
-
-  /* color: black; */
 }
 
 .title_container a{
@@ -50,8 +48,6 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: right;
-  /* line-height: 150px; */
-  /* align-items: center; */
 
 }
 
@@ -97,26 +93,11 @@ body {
 }
 
 .previous{
-  /* color: white;
-  cursor:pointer;
-  order:1
-  display: inline-block; */
   grid-area: lefter;
 
 }
 
-/*.dummy{
-  height:100px;
-  width:710px;
-  order:2;
-  display: inline-block;
-}*/
-
 .next{
-  /* color: white;
-  cursor:pointer;
-  order:3;
-  display: inline-block; */
   grid-area: righter;
 }
 
@@ -160,8 +141,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 60px;
-  /* max-width: 700px; */
-  /* margin: 20px auto; */
 }
 
 .background-pic img {
@@ -246,5 +225,3 @@ body {
   width:75%;
   align-self:center;
 }
-
-/* end of fifth panel */
