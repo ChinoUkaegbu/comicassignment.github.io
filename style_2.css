@@ -3,6 +3,11 @@
   src:url(Arvo-Bold.ttf);
 }
 
+@font-face {
+  font-family: Clean;
+  src:url(OPTIMA.ttf);
+}
+
 * {
  margin: 0px;
  padding: 0px;
@@ -25,7 +30,7 @@ body {
 }
 
 .title_container p{
-   background-image: url('cat_background.jpg');
+   background-image: url('images/cat_background.jpg');
 }
 
 .title_container a{
@@ -145,7 +150,7 @@ body {
   width: 35vw;
   height: auto;
   position: absolute;
-  bottom: 70%;
+  bottom: 50%;
   left:30%;
   right: 0;
   background-color: transparent;
@@ -156,7 +161,7 @@ body {
   width: 35vw;
   height: auto;
   position: absolute;
-  bottom: 70%;
+  bottom: 60%;
   left: 60%;
   right: 0;
   background-color: transparent;
@@ -180,6 +185,28 @@ body {
   position: absolute;
   top: 40%;
   left: 70%;
+  right: 0;
+  background-color: transparent;
+  opacity: 0;
+}
+
+#bubble_5{
+  width: 30vw;
+  height: auto;
+  position: absolute;
+  top: 135%;
+  left: 20%;
+  right: 0;
+  background-color: transparent;
+  opacity: 0;
+}
+
+#bubble_6{
+  width: auto;
+  height: 30vw;
+  position: absolute;
+  top: 110%;
+  left: 67%;
   right: 0;
   background-color: transparent;
   opacity: 0;
@@ -237,6 +264,25 @@ body {
 }
 
 .cell-4:hover #bubble_4{
+  opacity:1;
+  transition: 0.3s;
+}
+
+.cell-5:hover{
+  cursor: pointer;
+}
+
+.cell-5:hover #image-5{
+  opacity:0.8;
+  transition: 0.3s;
+}
+
+.cell-5:hover #bubble_5{
+  opacity:1;
+  transition: 0.3s;
+}
+
+.cell-5:hover #bubble_6{
   opacity:1;
   transition: 0.3s;
 }

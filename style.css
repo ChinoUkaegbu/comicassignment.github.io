@@ -22,7 +22,6 @@ body {
  margin-right:160px;
 }
 
-
 .title_container {
  margin: 0 auto;
  display: flex;
@@ -30,7 +29,7 @@ body {
 }
 
 .title_container p{
-   background-image: url('cat_background.jpg');
+   background-image: url('images/cat_background.jpg');
 }
 
 .title_container a{
@@ -98,7 +97,7 @@ body {
 }
 
 #load h1 {
- font: bold 50px 'helvetica';
+ font: bold 4vw 'Clean';
  letter-spacing: 2px;
  margin-top: -1px;
  color:#1F1C1B;
@@ -158,16 +157,9 @@ body {
    "previous next";
 }
 
-/* Some left and right padding inside the container */
-.container {
- padding: 0 16px;
-}
-
-/* Clear floats */
-.container::after, .row::after {
- content: "";
- clear: both;
- display: table;
+button{
+  font-family: Clean;
+  font-weight: bold;
 }
 
 .title {

@@ -3,6 +3,11 @@
   src:url(Arvo-Bold.ttf);
 }
 
+@font-face {
+  font-family: Clean;
+  src:url(OPTIMA.ttf);
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -24,7 +29,7 @@ body {
 }
 
 .title_container p{
-  background-color:black;
+   background-image: url('images/cat_background.jpg');
 }
 
 .title_container a{
@@ -90,6 +95,7 @@ body {
 .pannels p {
   display: inline-block;
   color:black;
+  font: bold 1.1vw 'Clean';
 }
 
 .previous{
