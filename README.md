@@ -2,17 +2,21 @@
 
 ## Eunsu Choi, Maya Lee, Tina Zhang, Chinonyerem Ukaegbu
 
-
-**Description**
+### **Description**
 
 It has been 585 days since March 7th, 2020, the day of school closure at NYUAD. With all classes turning remote, many students reported that the campus residents heavily depend on the campus cats for their mental health and healing. Until there was a cat missing…
 Where did the cat go?
 
 This comic project leads the readers to narrowing down the exact place the cat went. Readers get to talk to a catmom, fellow campus cats, and looks around the map, and then the cat-napper calls the reader to tease them, but the cat-napper gets caught at the airport.
 
-**Inspiration**
+### **Implementation**
 
-As you probably can tell from the contents of the data set, this project was heavily inspired by Taylor Swift. In honour of the announcement she made of the anticipated release of the rerecorded versions of the songs from her album *Fearless* , I decided to base this project off the lyrics of some of her earlier songs. The visualization is titled *Call It What You Want* partly because I had no idea what to call it and also because it's a reference to a song from her album *Reputation*. 
++ **Panel 1**
+  
+  The first panel sets an introduction to the whole comic. It introduces how a cat has gone missing and the whole journey is about finding it! 
+
+  Photoshop was used to crop the image of the wanted cat. After that, a black and white filter (done through grayscale) was used to deliver a serious mood.
+
 
 **Process**
 
