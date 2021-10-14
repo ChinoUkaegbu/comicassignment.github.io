@@ -5,7 +5,10 @@
 
 **Description**
 
-The task was to create either a data visualization or a generative text using the functions we had learnt last class.
+It has been 585 days since March 7th, 2020, the day of school closure at NYUAD. With all classes turning remote, many students reported that the campus residents heavily depend on the campus cats for their mental health and healing. Until there was a cat missing…
+Where did the cat go?
+
+This comic project leads the readers to narrowing down the exact place the cat went. Readers get to talk to a catmom, fellow campus cats, and looks around the map, and then the cat-napper calls the reader to tease them, but the cat-napper gets caught at the airport.
 
 **Inspiration**
 
