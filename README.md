@@ -54,5 +54,5 @@ We found this project to be very fun! It was rather interesting to work on the d
 
 ### **Interesting Notes**
 
-For some reason, one of the fonts that was in .ttf wasn't loading until we converted it to .otf even though the other fonts were in .ttf!
+For some reason, one of the fonts that was in .ttf wasn't loading until we converted it to .otf even though the other fonts were in .ttf! Also, Github takes some time to show the changes you've effected so you have to consider that as well.
 
