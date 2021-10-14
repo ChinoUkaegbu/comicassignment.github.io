@@ -1,11 +1,11 @@
 @font-face {
   font-family: Meow;
-  src:url(../comicassignment.github.io/Arvo-Bold.ttf);
+  src:url(Arvo-Bold.ttf);
 }
 
 @font-face {
   font-family: Clean;
-  src:url(OPTIMA.ttf);
+  src:url(../comicassignment.github.io/OPTIMA.ttf);
 }
 
 * {
