@@ -11,6 +11,11 @@ This comic project leads the readers to narrowing down the exact place the cat w
 
 ### **Implementation**
 
++ **Index/Loading Page**
+  
+  Will you help us find the missing cat?? Help or Ignore. In the loading page, we decided to let the reader decide if he or she wants to help us find the missing cat or not. We did this by making two buttons. Clicking the help button will lead to the first pannel of the comic, while clicking the ignore button will.. make us cry. The gif file was made through photoshop.
+  
+
 + **Panel 1**
   
   The first panel sets an introduction to the whole comic. It introduces how a cat has gone missing and the whole journey is about finding it! Photoshop was used to crop the image of the wanted cat. After that, a black and white filter (done through grayscale) was used to deliver a serious mood.
