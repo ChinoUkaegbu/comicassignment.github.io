@@ -31,6 +31,21 @@ This comic project leads the readers to narrowing down the exact place the cat w
 + **Panel 4**
   
   Photoshop was used to edit the image and illustrator to trace the image and buttons to allow for interactivity. The class name was called from the svg file to start the ringtone when hovered on the top, make colors darken when buttons are hovered, and to trigger sound when clicked on the green button. Then logic was applied to distort the audio and make it sound spooky.
+  
+
++ **Panel 5**
+  
+  Photoshop was used to edit the image and illustrator to trace the image and buttons to allow for interactivity. The class name was called from the svg file to start the ringtone when hovered on the top, make colors darken when buttons are hovered, and to trigger sound when clicked on the green button. Then logic was applied to distort the audio and make it sound spooky.
+  
+
++ **Panel 6**
+  
+  Finally!! This panel shows you who the criminal was. Speech balloons were used to make it seem like there were actual dialogues. The location was set by giving specific location through percentages.
+  
+
++ **Ending Page**
+  
+  The ending page wraps up the comic by granting you a huge amount of money! A cute image with the message "Congratulations You Won!" and an image of a happy cat is displayed! The adventure is over but if the reader would like to play again, they can either click the 'Go Back to Home' button on the navigation bar which will take them to the index page, or click the 'Missing Cat' button which will take them to the first panel.
 
 
 **Process**
