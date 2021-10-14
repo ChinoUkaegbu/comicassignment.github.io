@@ -26,19 +26,12 @@ This comic project leads the readers to narrowing down the exact place the cat w
   The second panel shows the cats and the cat mom being interviewed. This panel provides clues and hints as to where the missing cat might be which influences the decisions the reader makes in the next panel. The images were placed in a grid and the grid-template-areas properties was used to position the images. Then the speech bubbles were downloaded as PNGs with transparent backgrounds. And then, the opacity of the speech bubbles was set to 0 and would only be displayed when the reader hovers over the image.
   
   
-+ **Panel 3**
-  
-  The first panel sets an introduction to the whole comic. It introduces how a cat has gone missing and the whole journey is about finding it! 
++ **Panel 3 and 5**
 
-  Photoshop was used to crop the image of the wanted cat. After that, a black and white filter (done through grayscale) was used to deliver a serious mood.
+  The third panel was the world map panel and the fifth panel was the airport page. For these parts, it was mostly about hovering over images and interact with them. What was  difficult was that you can not interact with the image if it’s embedded with the background image, and two solutions were found were that: first using svg to trace all the border needed, and interact through different layers’ id and this was applied to the world map panel. We found a traced world map on internet, and then called the ID of different layers in CSS to change the color of the continent chosen. And the second solution is to place different layers of images, then one can directly interact with the image. However, this solution has the issue of positioning the image precisely. So to solve this, the grid display was used to posiiton the image.
   
 
 + **Panel 4**
-  
-  Photoshop was used to edit the image and illustrator to trace the image and buttons to allow for interactivity. The class name was called from the svg file to start the ringtone when hovered on the top, make colors darken when buttons are hovered, and to trigger sound when clicked on the green button. Then logic was applied to distort the audio and make it sound spooky.
-  
-
-+ **Panel 5**
   
   Photoshop was used to edit the image and illustrator to trace the image and buttons to allow for interactivity. The class name was called from the svg file to start the ringtone when hovered on the top, make colors darken when buttons are hovered, and to trigger sound when clicked on the green button. Then logic was applied to distort the audio and make it sound spooky.
   
